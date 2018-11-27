@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greeting-service
+server:
+  port: 8080
+hello-service-app:
+  usrname: Tomas
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka

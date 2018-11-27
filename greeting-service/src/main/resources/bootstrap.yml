@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: hello-service-app
+  cloud:
+    config:
+      uri: http://localhost:8888
