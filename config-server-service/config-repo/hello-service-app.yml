@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: greeting-service
+server:
+  port: 8080
+hello-service-app:
+  usrname: Tomas
